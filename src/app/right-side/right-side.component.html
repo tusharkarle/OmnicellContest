@@ -1,0 +1,22 @@
+<div class="wrapper">
+  <ng-container *ngIf="!imgAvailable; else elseTemplate">
+  <div class="uncontentCard">
+    <h3>No Preview Available</h3>
+  </div>
+</ng-container>
+<ng-template #elseTemplate>
+  <div class="card forInline">
+    <img src="{{ element.Image }}" class="card-img-top" alt="..." />
+    <div class="card-body">
+      <div class="likes">
+        <button class="btn btn-primary" (click)="clickImg()">
+          {{ LikeORNOT }}
+        </button>
+        <h3>Total Likes :-{{ element.likes }}</h3>
+      </div>
+      <h3>{{ element.timestamp }}</h3>
+    </div>
+  </div>
+</ng-template>
+
+</div>

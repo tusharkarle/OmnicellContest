@@ -1,0 +1,24 @@
+.wrapper {
+  height: 90vh;
+  overflow-y: scroll;
+  margin-right: 2rem;
+}
+
+.card {
+  margin-bottom: 2rem;
+  padding: 0.5rem;
+  border: 2px rgb(41, 29, 29) solid;
+  border-radius: 2rem;
+}
+.card-body {
+  flex: 1 1 auto;
+  padding: 1rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 0.5rem;
+}
+
+h3,
+p {
+  font-weight: 600;
+}

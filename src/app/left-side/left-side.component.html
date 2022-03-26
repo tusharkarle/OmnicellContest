@@ -1,0 +1,16 @@
+<div class="wrapper">
+  <div class="card flex-vertical" *ngFor="let element of imgDataArray">
+    <img
+      src="{{ element.Image }}"
+      class="card-img-top"
+      alt="..."
+      (click)="loadImg(element)"
+    />
+    <div class="card-body">
+      <h3 class="card-text">Total Likes :- {{ element.likes }}</h3>
+      <h3 class="card-text">
+        {{ element.timestamp }}
+      </h3>
+    </div>
+  </div>
+</div>

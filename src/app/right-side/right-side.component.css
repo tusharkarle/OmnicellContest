@@ -1,0 +1,41 @@
+.card img {
+  width: 50rem;
+  height: 45rem;
+}
+.card-body {
+  padding: 1rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.likes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.likes button {
+  margin-right: 0.8rem;
+}
+
+h3 {
+  margin-top: 0.9rem;
+  font-weight: 600;
+}
+
+.uncontentCard {
+  width: 50rem;
+  height: 45rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.uncontentCard h3 {
+  font-size: 4rem;
+}
+
+.wrapper {
+  border: 2px rgb(26, 12, 12) solid;
+}
